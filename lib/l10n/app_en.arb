@@ -1,0 +1,271 @@
+
+{
+  "@@locale": "en",
+  "settings": "Settings",
+  "language": "Language",
+  "notifications": "Notifications",
+  "geolocation": "Location",
+  "clearCache": "Clear cache",
+  "exportData": "Export my data",
+  "home": "Home",
+  "history": "History",
+  "favorites": "Favorites",
+  "profile": "Profile",
+  "identify": "Identify",
+  "takePhoto": "Take photo",
+  "chooseGallery": "Choose from gallery",
+  "encyclopedia": "Mushroom encyclopedia",
+  "recentIdentifications": "Recent identifications",
+  "identifyMushroomTitle": "Identify a mushroom from a photo",
+  "identifyMushroomSubtitle": "Take a photo of a mushroom or choose an existing picture from your gallery",
+  "openCameraSubtitle": "Open your device camera",
+  "chooseGallerySubtitle": "Use an existing photo",
+  "encyclopediaSubtitle": "Explore mushroom species and their characteristics",
+  "emptyRecentHistory": "Your recent identifications will appear here.",
+  "favoriteRemoved": "Removed from favorites",
+  "loading": "Loading...",
+  "favoriteLoadError": "Failed to load mushroom",
+  "favoriteNotFound": "Mushroom not found",
+  "emptyFavoritesTitle": "Nothing here yet",
+  "emptyFavoritesDescription": "Save interesting mushrooms from the encyclopedia to easily find them again.",
+  "openEncyclopedia": "Open encyclopedia",
+"identificationHistory": "Identification history",
+"searchMushroomsHint": "Search by mushroom name...",
+"clearSearch": "Clear search",
+"all": "All",
+"statusDetermined": "Identified",
+"statusNeedsCheck": "Needs review",
+"statusNotDetermined": "Not identified",
+"noResultsFound": "No results found",
+"changeSearchOrFilter": "Try changing your search or filter.",
+"emptyHistoryTitle": "No identification history yet",
+"emptyHistoryDescription": "Take a photo of a mushroom to see your first identification here.",
+"profileMyProfile": "My profile",
+"profilePersonalAccount": "Personal account",
+"profileMyActivity": "My activity",
+"profileIdentifications": "Identifications",
+"profileRegistration": "Joined",
+"profileAccountManagement": "Account management",
+"profileAppSettings": "App preferences",
+"profileLogoutAction": "Log out",
+"profileDeleteAction": "Delete account",
+"profileLogoutTitle": "Log out",
+"profileLogoutMessage": "Are you sure you want to log out of your account?",
+"profileCancel": "Cancel",
+"profileLogoutConfirm": "Log out",
+"profileDeleteTitle": "Delete account",
+"profileDeleteWarning": "WARNING! All your data will be permanently deleted, including your profile, identification history, favorites, and settings. This action cannot be undone.",
+"profileConfirmPassword": "Confirm password",
+"profileEnterPassword": "Please enter your password",
+"profileDeleteForever": "Delete permanently",
+"profileDeleteFailed": "Failed to delete account",
+
+"analysisSavedToHistory": "Saved to history",
+"analysisDeadlyTitle": "DANGER! A DEADLY POISONOUS MUSHROOM WAS IDENTIFIED",
+"analysisDeadlyMessage": "The image is highly likely to show a deadly poisonous mushroom. Eating this mushroom may be fatal. Do not eat it under any circumstances.",
+"analysisUnderstood": "Understood",
+"analysisResultTitle": "Analysis result",
+"analysisPossibleMatches": "Possible matches",
+"analysisConfidence": "confidence",
+"analysisInFavorites": "In favorites",
+"analysisAddToFavorites": "Add to favorites",
+"analysisReviewWarning": "The mushroom could not be reliably identified. Do not use this result to determine whether it is safe to eat.",
+"analysisEdibilitySeeDetails": "See species details",
+"analysisSafetyWarning": "Automated mushroom identification is not guaranteed to be accurate. Never decide whether a mushroom is safe to eat based on this app alone.",
+
+"previewTitle": "Photo preview",
+"previewLoginRequired": "Please log in to your account.",
+"previewAnalysisFailed": "Analysis failed: {error}",
+"@previewAnalysisFailed": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"previewRetake": "Retake",
+"previewConfirm": "Confirm",
+"previewCameraHint": "Place the mushroom in the center of the frame",
+"previewAnalyzing": "Analyzing...",
+
+"disclaimerTitle": "Important information",
+"disclaimerSubtitle": "Please read this information before using the app",
+"disclaimerSafetyTitle": "Your safety matters",
+"disclaimerAgreement": "I have read and understand the warning",
+"disclaimerSaving": "Saving...",
+"disclaimerAcceptContinue": "Accept and continue",
+"disclaimerFooter": "Safety matters more than any identification result.",
+"disclaimerSaveError": "Could not save your confirmation: {error}",
+"@disclaimerSaveError": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"disclaimerEnglishSafetyNotice": "Automated mushroom identification can be wrong. The app cannot establish whether a mushroom is safe to eat. Never eat an unidentified mushroom or rely on this app alone for an edibility decision. Misidentification may cause serious poisoning or death.",
+"disclaimerOriginalTextLabel": "Full original warning (Russian):",
+
+"historyDetailTitle": "Identification details",
+"historyDetailDeleteConfirmTitle": "Delete this record?",
+"historyDetailDeleteConfirmMessage": "This identification record will be permanently deleted and cannot be recovered.",
+"historyDetailDeleteConfirmButton": "Delete",
+"historyDetailDeleted": "Record deleted",
+"historyDetailDeleteFailed": "Failed to delete record",
+"historyDetailLoadFailed": "Failed to load record",
+"historyDetailNotFound": "Record not found",
+"historyDetailDate": "Date",
+"historyDetailTime": "Time",
+"historyDetailResults": "Identification results",
+"historyDetailNotIdentified": "The mushroom could not be identified.",
+"historyDetailOpenMushroom": "Open mushroom details",
+"historyDetailMushroomSubtitle": "Species description and characteristics",
+"historyDetailDeleteAction": "Delete record",
+"historyDetailDeleteSubtitle": "Remove from identification history",
+"historyDetailSafetyNotice": "Do not use identification results as confirmation that a mushroom is safe to eat.",
+"historyDetailRemoveFavorite": "Remove from favorites",
+"historyDetailAddFavorite": "Add to favorites",
+"historyDetailSavedMushrooms": "Saved mushrooms",
+"loginWelcomeBack": "Welcome back!",
+"loginAccountTitle": "Sign in to your account",
+"loginPassword": "Password",
+"loginButton": "Sign in",
+"loginNoAccount": "Don't have an account?",
+"loginRegister": "Sign up",
+"loginFooter": "Your companion in the world of mushrooms",
+"loginFailed": "Sign-in failed",
+
+"navigationOfflineMessage": "No internet connection. Working offline.",
+"navigationOnlineMessage": "Connection restored",
+
+"mushroomDetailTitle": "Mushroom details",
+"mushroomDetailLoadError": "Failed to load mushroom information.",
+"mushroomDetailDeadlyWarning": "DEADLY POISONOUS",
+"mushroomDetailFamily": "Family",
+"mushroomDetailPhotos": "Photos",
+"mushroomDetailDescription": "Description",
+"mushroomDetailNoDescription": "No description available.",
+"mushroomDetailSeason": "Season",
+"mushroomDetailHabitat": "Habitat",
+"mushroomDetailLookalikes": "Similar species (lookalikes)",
+"mushroomDetailNoPhotos": "No photos available",
+"mushroomDetailSimilarSpecies": "Similar species",
+
+"encyclopediaSearchHint": "Search mushrooms by name...",
+"encyclopediaLoadError": "Failed to load the mushroom encyclopedia",
+"encyclopediaEmpty": "No mushrooms in the encyclopedia yet",
+
+"registerTitle": "Registration",
+"registerCreateAccount": "Create an account",
+"registerSubtitle": "Join Mushroom Identifier",
+"registerCredentials": "Sign-in details",
+"registerPasswordHint": "Your password must contain at least 8 characters, uppercase and lowercase letters, a number, and a special character.",
+"registerAlreadyHaveAccount": "Already have an account?",
+"registerFailed": "Registration failed",
+
+"settingsAppSection": "App",
+"settingsNotificationsSubtitle": "Notification preferences",
+"settingsGeolocationSubtitle": "Save where mushrooms are found",
+"settingsDataSection": "Data and storage",
+"settingsClearCacheSubtitle": "Delete temporary files",
+"settingsClearCacheTitle": "Clear cache?",
+"settingsClearCacheMessage": "Temporary app files will be deleted. Your account, identification history, and favorites will not be deleted.",
+"settingsClearButton": "Clear",
+"settingsCacheCleared": "Temporary files cleared",
+"settingsClearCacheFailed": "Failed to clear cache: {error}",
+"@settingsClearCacheFailed": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"settingsExportTitle": "Export my data",
+"settingsExportSubtitle": "Save identification history and favorites as JSON",
+"settingsExportSaved": "Data saved: {filePath}",
+"@settingsExportSaved": {
+  "placeholders": {
+    "filePath": {
+      "type": "String"
+    }
+  }
+},
+"settingsExportFailed": "Failed to export data",
+"settingsExportError": "Export error: {error}",
+"@settingsExportError": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"settingsLanguageTitle": "App language",
+"settingsLanguageFailed": "Failed to save the selected language",
+
+"authEmailAlreadyInUse": "This email is already registered",
+"authInvalidEmail": "Invalid email address",
+"authWeakPassword": "Password is too weak",
+"authInvalidCredentials": "Incorrect email or password",
+"authUserDisabled": "This account has been disabled",
+"authTooManyRequests": "Too many attempts. Please try again later",
+"authRequiresRecentLogin": "Please sign in again to complete this action",
+"authNetworkError": "Network connection error",
+"authOperationNotAllowed": "This operation is not allowed",
+"authSessionExpired": "Your session has expired. Please sign in again",
+"authNotAuthenticated": "You are not signed in",
+"authUserCreationFailed": "Failed to create your account",
+"authUnexpectedError": "An unexpected error occurred. Please try again.",
+"imageProcessingDecodeFailed": "Failed to read the image.",
+"imageUnsupportedFormat": "Only JPG and PNG images are supported.",
+"identificationConfidence": "Confidence: {confidence}",
+"@identificationConfidence": {
+  "placeholders": {
+    "confidence": {
+      "type": "String"
+    }
+  }
+},
+
+"exportStorageUnavailable": "Failed to save the file to storage.",
+
+"edibilityEdible": "Edible",
+"edibilityConditionallyEdible": "Conditionally edible",
+"edibilityInedible": "Inedible",
+"edibilityPoisonous": "Poisonous",
+"edibilityDeadlyPoisonous": "Deadly poisonous",
+"disclaimerFullWarning": "WARNING: This result was generated by artificial intelligence and may contain errors. Do not eat a mushroom unless you are absolutely certain it is safe.",
+"analysisHighConfidence": "High confidence",
+"analysisNeedsCheckLabel": "Verification recommended",
+"analysisNotDeterminedMessage": "The mushroom could not be identified with sufficient confidence. Try taking a clearer photo from different angles.",
+"cameraFrameHint": "Place the mushroom in the center of the frame",
+"validationEmailRequired": "Enter your email address",
+"validationEmailTooLong": "Email must not exceed {maxLength} characters",
+"@validationEmailTooLong": {
+  "placeholders": {
+    "maxLength": {
+      "type": "int"
+    }
+  }
+},
+"validationEmailInvalid": "Invalid email address format",
+"validationPasswordRequired": "Enter your password",
+"validationPasswordTooShort": "Password must contain at least {minLength} characters",
+"@validationPasswordTooShort": {
+  "placeholders": {
+    "minLength": {
+      "type": "int"
+    }
+  }
+},
+"validationPasswordUppercase": "Password must contain an uppercase letter",
+"validationPasswordLowercase": "Password must contain a lowercase letter",
+"validationPasswordDigit": "Password must contain a number",
+"validationPasswordSpecial": "Password must contain a special character",
+"validationConfirmRequired": "Confirm your password",
+"validationPasswordsMismatch": "Passwords do not match",
+"appTitle": "Mushroom Identifier"
+
+
+
+
+}

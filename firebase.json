@@ -1,0 +1,27 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mushroom-identifier-6f4f3",
+          "appId": "1:602737054568:android:eb6d160d275453eababcdd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mushroom-identifier-6f4f3",
+          "configurations": {
+            "android": "1:602737054568:android:eb6d160d275453eababcdd"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "europe-west10",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

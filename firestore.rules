@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Профиль пользователя.
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+
+    // Настройки пользователя.
+    match /settings/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+
+    // Определения пользователя и их предсказания.
+    match /identifications/{id} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn()
+        && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isSignedIn()
+        && resource.data.userId == request.auth.uid;
+
+      match /predictions/{predictionId} {
+        allow read, write: if isSignedIn();
+      }
+    }
+
+    // Избранное.
+    match /favorites/{id} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn()
+        && request.resource.data.userId == request.auth.uid;
+      allow delete: if isSignedIn()
+        && resource.data.userId == request.auth.uid;
+    }
+
+    // Справочные данные о грибах. Чтение — для авторизованных.
+    // Запись разрешена авторизованным, чтобы работал DataSeedService
+    // при первом запуске. В продакшене ограничьте запись только админами.
+    match /mushrooms/{id} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn();
+    }
+    match /mushroomImages/{id} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn();
+    }
+    match /doppelgangers/{id} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn();
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "@@locale": "ru",
+  "settings": "Настройки",
+  "language": "Язык",
+  "notifications": "Уведомления",
+  "geolocation": "Геолокация",
+  "clearCache": "Очистить кэш",
+  "exportData": "Экспорт моих данных",
+  "home": "Главная",
+  "history": "История",
+  "favorites": "Избранное",
+  "profile": "Профиль",
+  "identify": "Определить",
+  "takePhoto": "Сделать фото",
+  "chooseGallery": "Выбрать из галереи",
+  "encyclopedia": "Справочник грибов",
+  "recentIdentifications": "Последние определения",
+  "identifyMushroomTitle": "Определите гриб по фотографии",
+  "identifyMushroomSubtitle": "Сфотографируйте гриб или выберите готовый снимок из галереи",
+  "openCameraSubtitle": "Открыть камеру устройства",
+  "chooseGallerySubtitle": "Использовать готовый снимок",
+  "encyclopediaSubtitle": "Изучить виды и их особенности",
+  "emptyRecentHistory": "Здесь появятся ваши недавние определения.",
+  "favoriteRemoved": "Удалено из избранного",
+  "loading": "Загрузка...",
+  "favoriteLoadError": "Не удалось загрузить гриб",
+  "favoriteNotFound": "Гриб не найден",
+  "emptyFavoritesTitle": "Здесь пока пусто",
+  "emptyFavoritesDescription": "Добавляйте интересные грибы из справочника, чтобы быстро возвращаться к ним.",
+  "openEncyclopedia": "Открыть справочник",
+  "identificationHistory": "История определений",
+  "searchMushroomsHint": "Поиск по названию гриба...",
+  "clearSearch": "Очистить поиск",
+  "all": "Все",
+  "statusDetermined": "Определён",
+  "statusNeedsCheck": "Требует проверки",
+  "statusNotDetermined": "Не определён",
+  "noResultsFound": "Ничего не найдено",
+  "changeSearchOrFilter": "Попробуйте изменить поиск или фильтр.",
+  "emptyHistoryTitle": "История пока пуста",
+  "emptyHistoryDescription": "Сфотографируйте гриб, чтобы здесь появилось ваше первое определение.",
+"profileMyProfile": "Мой профиль",
+"profilePersonalAccount": "Личный кабинет",
+"profileMyActivity": "Моя активность",
+"profileIdentifications": "Определений",
+"profileRegistration": "Регистрация",
+"profileAccountManagement": "Управление аккаунтом",
+"profileAppSettings": "Параметры приложения",
+"profileLogoutAction": "Выйти из аккаунта",
+"profileDeleteAction": "Удалить аккаунт",
+"profileLogoutTitle": "Выход",
+"profileLogoutMessage": "Вы действительно хотите выйти из аккаунта?",
+"profileCancel": "Отмена",
+"profileLogoutConfirm": "Выйти",
+"profileDeleteTitle": "Удаление аккаунта",
+"profileDeleteWarning": "ВНИМАНИЕ! Все ваши данные будут безвозвратно удалены: профиль, история определений, избранное и настройки. Это действие необратимо.",
+"profileConfirmPassword": "Подтвердите пароль",
+"profileEnterPassword": "Введите пароль",
+"profileDeleteForever": "Удалить навсегда",
+"profileDeleteFailed": "Не удалось удалить аккаунт",
+
+"analysisSavedToHistory": "Сохранено в историю",
+"analysisDeadlyTitle": "ОПАСНО! ОПРЕДЕЛЁН СМЕРТЕЛЬНО ЯДОВИТЫЙ ГРИБ",
+"analysisDeadlyMessage": "Изображение с высокой вероятностью соответствует смертельно ядовитому грибу. Употребление в пищу может привести к летальному исходу. Ни в коем случае не используйте этот гриб в пищу.",
+"analysisUnderstood": "Понятно",
+"analysisResultTitle": "Результат анализа",
+"analysisPossibleMatches": "Возможные варианты",
+"analysisConfidence": "уверенность",
+"analysisInFavorites": "В избранном",
+"analysisAddToFavorites": "Добавить в избранное",
+"analysisReviewWarning": "Не удалось надёжно определить гриб. Не используйте результат для решения о съедобности.",
+"analysisEdibilitySeeDetails": "Смотрите сведения о виде",
+"analysisSafetyWarning": "Автоматическое распознавание не гарантирует правильность определения гриба. Никогда не принимайте решение о съедобности только на основании результата приложения.",
+
+"previewTitle": "Предпросмотр",
+"previewLoginRequired": "Необходимо войти в аккаунт.",
+"previewAnalysisFailed": "Не удалось выполнить анализ: {error}",
+"@previewAnalysisFailed": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"previewRetake": "Переснять",
+"previewConfirm": "Подтвердить",
+"previewCameraHint": "Поместите гриб в центр кадра",
+"previewAnalyzing": "Идёт анализ...",
+
+"disclaimerTitle": "Важная информация",
+"disclaimerSubtitle": "Пожалуйста, ознакомьтесь перед использованием приложения",
+"disclaimerSafetyTitle": "Ваша безопасность важна",
+"disclaimerAgreement": "Я прочитал(а) и понимаю предупреждение",
+"disclaimerSaving": "Сохранение...",
+"disclaimerAcceptContinue": "Принять и продолжить",
+"disclaimerFooter": "Безопасность важнее любого результата распознавания.",
+"disclaimerSaveError": "Не удалось сохранить подтверждение: {error}",
+"@disclaimerSaveError": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"disclaimerEnglishSafetyNotice": "Автоматическое распознавание грибов может ошибаться. Не используйте результат приложения для определения съедобности и никогда не употребляйте неизвестные грибы.",
+"disclaimerOriginalTextLabel": "Полный исходный текст предупреждения:",
+
+"historyDetailTitle": "Детали определения",
+"historyDetailDeleteConfirmTitle": "Удалить запись?",
+"historyDetailDeleteConfirmMessage": "Запись определения будет удалена без возможности восстановления.",
+"historyDetailDeleteConfirmButton": "Удалить",
+"historyDetailDeleted": "Запись удалена",
+"historyDetailDeleteFailed": "Не удалось удалить запись",
+"historyDetailLoadFailed": "Не удалось загрузить запись",
+"historyDetailNotFound": "Запись не найдена",
+"historyDetailDate": "Дата",
+"historyDetailTime": "Время",
+"historyDetailResults": "Результаты распознавания",
+"historyDetailNotIdentified": "Гриб не был определён.",
+"historyDetailOpenMushroom": "Открыть карточку гриба",
+"historyDetailMushroomSubtitle": "Описание и особенности вида",
+"historyDetailDeleteAction": "Удалить запись",
+"historyDetailDeleteSubtitle": "Удалить из истории определений",
+"historyDetailSafetyNotice": "Не используйте результат распознавания как подтверждение съедобности гриба.",
+"historyDetailRemoveFavorite": "Убрать из избранного",
+"historyDetailAddFavorite": "Добавить в избранное",
+"historyDetailSavedMushrooms": "Сохранённые грибы",
+"loginWelcomeBack": "С возвращением!",
+"loginAccountTitle": "Вход в аккаунт",
+"loginPassword": "Пароль",
+"loginButton": "Войти",
+"loginNoAccount": "Нет аккаунта?",
+"loginRegister": "Зарегистрироваться",
+"loginFooter": "Ваш помощник в мире грибов",
+"loginFailed": "Ошибка входа",
+
+"navigationOfflineMessage": "Нет подключения к сети. Работа в офлайн-режиме.",
+"navigationOnlineMessage": "Подключение восстановлено",
+
+"mushroomDetailTitle": "Карточка гриба",
+"mushroomDetailLoadError": "Не удалось загрузить информацию о грибе.",
+"mushroomDetailDeadlyWarning": "СМЕРТЕЛЬНО ОПАСЕН",
+"mushroomDetailFamily": "Семейство",
+"mushroomDetailPhotos": "Фотографии",
+"mushroomDetailDescription": "Описание",
+"mushroomDetailNoDescription": "Описание отсутствует.",
+"mushroomDetailSeason": "Сезон",
+"mushroomDetailHabitat": "Места произрастания",
+"mushroomDetailLookalikes": "Похожие виды (двойники)",
+"mushroomDetailNoPhotos": "Нет фотографий",
+"mushroomDetailSimilarSpecies": "Похожий вид",
+
+"encyclopediaSearchHint": "Поиск по названию...",
+"encyclopediaLoadError": "Не удалось загрузить справочник",
+"encyclopediaEmpty": "В справочнике пока нет грибов",
+
+"registerTitle": "Регистрация",
+"registerCreateAccount": "Создать аккаунт",
+"registerSubtitle": "Присоединяйтесь к Mushroom Identifier",
+"registerCredentials": "Данные для входа",
+"registerPasswordHint": "Пароль должен содержать минимум 8 символов, заглавную и строчную буквы, цифру и специальный символ.",
+"registerAlreadyHaveAccount": "Уже есть аккаунт?",
+"registerFailed": "Ошибка регистрации",
+
+"settingsAppSection": "Приложение",
+"settingsNotificationsSubtitle": "Настройки уведомлений",
+"settingsGeolocationSubtitle": "Сохранять место находки гриба",
+"settingsDataSection": "Данные и хранилище",
+"settingsClearCacheSubtitle": "Удалить временные файлы",
+"settingsClearCacheTitle": "Очистить кэш?",
+"settingsClearCacheMessage": "Будут удалены временные файлы приложения. Ваш аккаунт, история определений и избранное не будут удалены.",
+"settingsClearButton": "Очистить",
+"settingsCacheCleared": "Временные файлы очищены",
+"settingsClearCacheFailed": "Не удалось очистить кэш: {error}",
+"@settingsClearCacheFailed": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"settingsExportTitle": "Экспорт моих данных",
+"settingsExportSubtitle": "Сохранить историю и избранное в JSON",
+"settingsExportSaved": "Данные сохранены: {filePath}",
+"@settingsExportSaved": {
+  "placeholders": {
+    "filePath": {
+      "type": "String"
+    }
+  }
+},
+"settingsExportFailed": "Не удалось экспортировать данные",
+"settingsExportError": "Ошибка экспорта: {error}",
+"@settingsExportError": {
+  "placeholders": {
+    "error": {
+      "type": "String"
+    }
+  }
+},
+"settingsLanguageTitle": "Язык интерфейса",
+"settingsLanguageFailed": "Не удалось сохранить выбранный язык",
+
+"authEmailAlreadyInUse": "Этот email уже зарегистрирован",
+"authInvalidEmail": "Некорректный email",
+"authWeakPassword": "Слишком слабый пароль",
+"authInvalidCredentials": "Неверный email или пароль",
+"authUserDisabled": "Аккаунт заблокирован",
+"authTooManyRequests": "Слишком много попыток. Попробуйте позже",
+"authRequiresRecentLogin": "Требуется повторный вход для этой операции",
+"authNetworkError": "Ошибка подключения к сети",
+"authOperationNotAllowed": "Операция не разрешена",
+"authSessionExpired": "Срок действия сеанса истёк. Войдите снова",
+"authNotAuthenticated": "Пользователь не авторизован",
+"authUserCreationFailed": "Не удалось создать пользователя",
+"authUnexpectedError": "Произошла непредвиденная ошибка. Попробуйте ещё раз.",
+"imageProcessingDecodeFailed": "Не удалось прочитать изображение.",
+
+"imageUnsupportedFormat": "Поддерживаются только изображения в формате JPG или PNG.",
+"identificationConfidence": "Уверенность: {confidence}",
+"@identificationConfidence": {
+  "placeholders": {
+    "confidence": {
+      "type": "String"
+    }
+  }
+},
+
+"exportStorageUnavailable": "Не удалось сохранить файл в хранилище.",
+
+"edibilityEdible": "Съедобный",
+"edibilityConditionallyEdible": "Условно-съедобный",
+"edibilityInedible": "Несъедобный",
+"edibilityPoisonous": "Ядовитый",
+"edibilityDeadlyPoisonous": "Смертельно ядовитый",
+"disclaimerFullWarning": "ВНИМАНИЕ: Данный результат сгенерирован искусственным интеллектом и может содержать ошибки. Не употребляйте гриб в пищу, не будучи абсолютно уверенным в его безопасности.",
+"analysisHighConfidence": "Высокая уверенность",
+"analysisNeedsCheckLabel": "Рекомендуется проверить",
+"analysisNotDeterminedMessage": "Не удалось определить с достаточной уверенностью. Попробуйте сделать более чёткое фото с разных ракурсов.",
+"cameraFrameHint": "Расположите гриб в центре кадра",
+"validationEmailRequired": "Введите email",
+"validationEmailTooLong": "Email не должен превышать {maxLength} символов",
+"@validationEmailTooLong": {
+  "placeholders": {
+    "maxLength": {
+      "type": "int"
+    }
+  }
+},
+"validationEmailInvalid": "Некорректный формат email",
+"validationPasswordRequired": "Введите пароль",
+"validationPasswordTooShort": "Пароль должен содержать минимум {minLength} символов",
+"@validationPasswordTooShort": {
+  "placeholders": {
+    "minLength": {
+      "type": "int"
+    }
+  }
+},
+"validationPasswordUppercase": "Пароль должен содержать заглавную букву",
+"validationPasswordLowercase": "Пароль должен содержать строчную букву",
+"validationPasswordDigit": "Пароль должен содержать цифру",
+"validationPasswordSpecial": "Пароль должен содержать специальный символ",
+"validationConfirmRequired": "Повторите пароль",
+"validationPasswordsMismatch": "Пароли не совпадают",
+"appTitle": "Определитель грибов"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

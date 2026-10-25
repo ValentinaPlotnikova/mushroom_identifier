@@ -1,0 +1,17 @@
+rules_version = '2';
+
+// Правила безопасности Firebase Storage.
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Изображения определений пользователя:
+    // users/{uid}/identifications/{file}
+    match /users/{uid}/identifications/{file} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if request.auth != null
+        && request.auth.uid == uid
+        // Только изображения, не больше 10 МБ.
+        && request.resource.size < 10 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+    }
+  }
+}
